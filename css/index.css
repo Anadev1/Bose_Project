@@ -1,0 +1,6 @@
+
+.wrapper-container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 50px 625px 75px;
+}

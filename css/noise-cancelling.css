@@ -1,0 +1,21 @@
+.article-container {
+    width: 80%;
+    margin: 0 auto;
+}
+.article-title {
+    margin: 20px 0;
+    font-family: Lato;
+}
+.byline {
+    font-family: Lato;
+    font-style: italic;
+}
+.article-subtitle {
+    margin-top: 20px;
+    margin-bottom: 12px;
+    font-family: Lato;
+}
+.paragraph {
+    margin-bottom: 10px;
+    font-family: Raleway;
+}

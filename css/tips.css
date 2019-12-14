@@ -1,0 +1,21 @@
+.main-container {
+    display: flex;
+    flex-direction: column;
+    width:
+}
+.tip-container {
+    display: flex;
+    flex-direction: column;
+}
+.tip-image {
+    width: 60%;
+    margin: 0 auto;
+    padding: 10px;
+}
+.tip-title {
+    font-size: 24px;
+    padding: 10px;
+    background-color: #213c69;
+    color: #ffffff;
+    font-family: Lato;
+}

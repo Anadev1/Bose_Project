@@ -1,0 +1,17 @@
+.article-container {
+    width: 80%;
+    margin: 0 auto;
+}
+.article-title {
+    margin: 20px 0;
+}
+.article-subtitle {
+    margin-top: 20px;
+    margin-bottom: 12px;
+}
+.paragraph {
+    margin-bottom: 10px;
+}
+.tool-list {
+    margin-left: 15px;
+}
