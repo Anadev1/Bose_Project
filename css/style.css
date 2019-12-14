@@ -6,6 +6,11 @@
     border: 0;
     box-sizing: border-box;
 }
+.another-header-container {
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+}
 .link {
     text-decoration: none;
     color: black;
@@ -35,7 +40,7 @@
 
     padding: 5px 5px;
     margin-top: 4px;
-    margin-right: 5px;
+    margin-right: 15px;
     background: #ddd;
     font-size: 14px;
     border: none;
@@ -65,8 +70,8 @@
     font-family: Lato;
 }
 .header-container {
-    display: grid;
-    grid-template-columns: repeat(4, auto);
+    display: flex;
+    flex-direction: row;
     border-bottom: 2px solid black;
 }
 
@@ -76,6 +81,7 @@
     align-items: center;
     justify-content: space-between;
     border-top: 2px solid black;
+    margin-top: 10px;
 }
 
 .newsletter-container {
@@ -84,7 +90,6 @@
 }
 
 .logo-container {
-
     padding-top: 10px;
 }
 
@@ -93,20 +98,16 @@
 
 }
 
-.searchbar-container {}
-
 .cart-container {
 
     margin: 15px auto;
-
 }
 
-/* beginning of burger menu */
+/* beginning of burger menu*/
 .menu-container {
     position: absolute;
     right: 0;
     width: 100%;
-    z-index: 3;
     margin-top: 8px;
 }
 
