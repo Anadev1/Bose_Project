@@ -1,6 +1,21 @@
-
 .wrapper-container {
     display: grid;
     grid-template-columns: auto;
-    grid-template-rows: 50px 625px 75px;
+    grid-template-rows: 5vh 95vh auto;
+}
+.header-container {
+    height: 6vh;
+}
+@media only screen and (min-width: 500px) {
+    .banner-container {
+        margin: 0 auto;
+        width: 80%;
+        text-align: center;
+        height: 100%;
+    }
+    .banner-image {
+        height: 100%;
+        margin-top: 20px;
+    }
+
 }

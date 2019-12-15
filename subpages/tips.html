@@ -31,7 +31,7 @@
                 </form>
             </div>
             <div class="cart-container">
-                <a href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+                <a href="cart.html"><i class="fas fa-shopping-cart link"></i></a>
             </div>
                 </div>
             <div class="menu-container">
@@ -47,29 +47,62 @@
         <main class="main-container">
             <div class="tip-container">
                 <img src="../images/frustratedman_small.jpg" alt="frustrated man" class="tip-image">
-                <h1 class="tip-title">Solve your frustrations</h1>
+                <div class="tip-side">
+                <a href="#" class="tip-title">Solve your
+                    frustrations</a>
+                <p class="tip-description">Do your headphones keep falling out? are they always tangled when you take them out of your pocket? This article will help you find ways to avoit this kind of situations.</p>
+                    </div>
             </div>
             <div class="tip-container">
-                <img src="../images/screwdriver_small.jpg" alt="screwdriver and wrench" class="tip-image">
-                <h1 class="tip-title">Maintenance</h1>
+                <a href="maintenance.html" class="tip-image-link"><img src="../images/screwdriver_small.jpg" alt="screwdriver and wrench" class="tip-image"></a>
+                <div class="tip-side">
+                <a href="maintenance.html" class="tip-title">Maintenance</a>
+
+                <p class="tip-description">A quick guide on how to clean your headphones for a better listening experience.</p>
+                    </div>
             </div>
             <div class="tip-container">
                 <img src="../images/checkmark_small.jpg" alt="frustrated man" class="tip-image">
-                <h1 class="tip-title">Choosing the right headphones</h1>
+                <div class="tip-side">
+                <a href="#" class="tip-title">Choosing the right headphones</a>
+                <p class="tip-description">If you're having trouble deciding what kind of headphones fit your needs best, this article should make it easier for you.</p>
+                    </div>
             </div>
         </main>
-        <footer class="footer-container">
+               <footer class="footer-container">
             <div class="newsletter-container">
-                <i class="envelope-icon far fa-envelope"></i>
-                <p>Newsletter</p>
+                <button type="button" class="newsletter-button" onclick="document.getElementById('modal_id').style.display='block';">Subscribe to newsletter<div><i class="envelope-icon far fa-envelope"></i></div></button>
+
             </div>
             <div class="some-container">
-                <i class=" some-icon fab fa-facebook-square"></i>
-                <i class=" some-icon fab fa-twitter-square"></i>
-                <i class=" some-icon fab fa-instagram"></i>
-                <i class=" some-icon fab fa-youtube-square"></i>
+                <p class="follow-text">Follow us on social media</p>
+                <div class="icons-container">
+                    <a href="https://www.facebook.com/Bose" class="link"><i class=" some-icon fab fa-facebook-square"></i></a>
+                    <a href="https://twitter.com/Bose" class="link"><i class=" some-icon fab fa-twitter-square"></i></a>
+                    <a href="https://www.instagram.com/bose/" class="link"><i class=" some-icon fab fa-instagram"></i></a>
+                    <a href="https://www.youtube.com/user/Bose" class="link"><i class=" some-icon fab fa-youtube-square"></i></a>
+                    </div>
             </div>
         </footer>
+    </div>
+     <div id="modal_id" class="modal animate">
+
+        <div class="modal-content">
+            <span onclick="document.getElementById('modal_id').style.display='none';" class="close">&times;</span>
+            <form class="newsletter-container">
+                <div class="details-container">
+                    <input type="text" class="input-container" placeholder="Name"  name="name" required>
+                    <input type="text" class="input-container" placeholder="Email" name="mail" required>
+                    <label>
+                        <input type="checkbox" checked="checked" name="subscribe" >I want to receive news from the magazine.
+                    </label>
+                </div>
+                <div>
+                    <input type="submit" value="Subscribe" class="subscribe-button">
+                </div>
+            </form>
+        </div>
+    </div>
     </div>
 </body>
 

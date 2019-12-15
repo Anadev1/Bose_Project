@@ -33,6 +33,10 @@
 }
 .cart-text {
     margin-left: 10%;
+    font-family: Lato;
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 25px;
 }
 .text-container {
     margin-left: 20px;
@@ -44,4 +48,22 @@
     width: 80%;
     margin: 0 auto;
     justify-content: space-between;
+}
+@media only screen and (min-width: 500px) {
+    .main-container {
+        width: 60%;
+        margin: 10px auto;
+        height: 85vh;
+    }
+    .text-container {
+        font-family: Lato;
+        font-size: 20px;
+    }
+    .last-container {
+        font-size: 24px;
+        font-family: Lato;
+    }
+    .item-container {
+        justify-content: space-around;
+    }
 }
